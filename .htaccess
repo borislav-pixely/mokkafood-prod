@@ -1,8 +1,1 @@
-RewriteEngine on
-RewriteCond %{HTTP_HOST} ^mokkafood\.co\.uk$ [OR]
-RewriteCond %{HTTP_HOST} ^www\.mokkafood\.co\.uk$
-RewriteRule ^payment$ "https\:\/\/mokkafood\.co\.uk\/" [R=301,L]
-RewriteCond %{HTTP_HOST} ^mokkafood\.co\.uk$ [OR]
-RewriteCond %{HTTP_HOST} ^www\.mokkafood\.co\.uk$
-RewriteRule ^cart$ "https\:\/\/mokkafood\.co\.uk\/" [R=301,L]
 ErrorDocument 404 NotFound/index.html
